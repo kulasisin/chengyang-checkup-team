@@ -1,19 +1,19 @@
-const elr = document.querySelectorAll(".bubble_title");
+// const elr = document.querySelectorAll(".bubble_title");
 // elr[0].textContent = "hello";
 // elr[1].textContent = "";
 // elr[0].innerHTML = `<h1>好吃ㄚㄚㄚ</h1>`;
 // console.log(elr);
 
 //監聽
-const startBtn = document.querySelector(".banner");
-startBtn.addEventListener("click", function (e) {
-  //   elr[0].textContent = "START!";
-  // console.log(e.target.nodeName);
-  if (e.target.nodeName == "A") {
-    console.log("START!");
-    elr[0].textContent = "START!";
-  }
-});
+// const startBtn = document.querySelector(".banner");
+// startBtn.addEventListener("click", function (e) {
+//   elr[0].textContent = "START!";
+// console.log(e.target.nodeName);
+//   if (e.target.nodeName == "A") {
+//     console.log("START!");
+//     elr[0].textContent = "START!";
+//   }
+// });
 
 // axios post 範例
 
