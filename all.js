@@ -8,4 +8,8 @@ $(document).ready(function () {
       $(".navbar").removeClass("menu-show");
     }
   });
+  $(".go-top").click(function (e) {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0;
+  });
 });

@@ -1021,3 +1021,13 @@ h2 {
 #contact-us {
   margin-bottom: 80px;
 }
+.go-top img {
+  width: 50px;
+}
+.go-top {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+  z-index: 2000;
+  opacity: 0.6;
+}
