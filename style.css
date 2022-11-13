@@ -773,6 +773,7 @@ h2 {
   .plan_content {
     padding: 20px;
   }
+
   .smiling_photo_phone {
     margin-top: 100px;
     width: 100%;
@@ -806,5 +807,115 @@ h2 {
     height: 250px;
     width: 100%;
     content: "";
+  }
+}
+/* 合作對象 */
+.team-title {
+  font-size: 28px;
+  text-align: center;
+  line-height: 2;
+}
+.members {
+  margin-top: 157px;
+}
+.members li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+  border-radius: 50px;
+  transition: all 1s;
+  background: aliceblue;
+}
+.members li:hover {
+  /* background: linear-gradient(
+    42deg,
+    #70b3ff -0.13%,
+    rgba(255, 255, 255, 0.00312519) 78.21%,
+    rgba(217, 217, 217, 0) 78.22%
+  ); */
+  background: #5cabff;
+}
+.members li:hover p {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px 0 0 20px;
+}
+.members li:hover span,
+.members li:hover h3 {
+  color: white;
+}
+.team-contnet {
+  width: 70%;
+}
+.members li h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 50px;
+  letter-spacing: 0.4em;
+  color: #5cabff;
+  margin-bottom: 38px;
+}
+.members li p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+  color: #000000;
+}
+.members li .members-pic {
+  width: 438px;
+  height: 438px;
+  margin-right: 30px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+}
+.m-pic1 {
+  background-image: url("./img/腎友社群.png");
+}
+.m-pic2 {
+  background-image: url("./img/醫療團隊.png");
+}
+.m-pic3 {
+  background-image: url("./img/保險業者.png");
+}
+.m-pic4 {
+  background-image: url("./img/政府單位.png");
+}
+.team-contnet span {
+  color: #5cabff;
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .teamup .team-title {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .members li {
+    flex-direction: column;
+    align-items: center;
+  }
+  .members li .members-pic {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+  .members li h3 {
+    font-size: 24px;
+    letter-spacing: 0em;
+    margin: 10px auto;
+  }
+  .team-contnet {
+    width: 90%;
+  }
+  .members li p {
+    font-size: 20px;
+  }
+  .members li:hover p {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px 20px 20px 20px;
   }
 }
